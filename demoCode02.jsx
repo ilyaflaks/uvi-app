@@ -6,6 +6,7 @@ const ATMDeposit = ({ onChange, isDeposit }) => {
       <h3> {choice[Number(!isDeposit)]}</h3>
       <input type="number" width="200" onChange={onChange}></input>
       <input type="submit" width="200" value="Submit"></input>
+      git remote add origin git@github.com:ilyaflaks/delete-me.git
     </label>
   );
 };
