@@ -1,0 +1,87 @@
+.uv-app {
+  font-family: "Roboto", sans-serif;
+  background-color: #e6e1c5;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  border-radius: 8px;
+  padding-top: 15px;
+}
+
+.header {
+  color: rgb(87, 87, 87);
+}
+
+.instructions {
+  color: rgb(87, 87, 87);
+  margin-bottom: 4 0px;
+}
+
+.button {
+  border-radius: 5px;
+  color: rgb(87, 87, 87);
+  background-color: #bcd3f2;
+  margin-left: 10px;
+  border: #bcd3f2;
+}
+
+.outcome {
+  margin-top: 40px;
+  color: rgb(87, 87, 87);
+  margin-bottom: 40px;
+}
+
+#warning {
+  color: rgb(87, 87, 87);
+}
+/* 
+@media (max-width: 500px) {
+  .uv-app {
+    background-color: blue;
+    width: 90%;
+    height: 90%;
+  }
+} */
+
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+  .uv-app {
+    width: 95%;
+    height: 95%;
+  }
+
+  .header {
+    margin-top: 60px;
+
+    font-size: 5em;
+    margin-bottom: 50px;
+  }
+
+  .instructions {
+    font-size: 3.5em;
+    margin-bottom: 50px;
+  }
+
+  .input {
+    width: 270px;
+    height: 60px;
+    font-size: 2.5em;
+    border-radius: 5px;
+  }
+
+  .button {
+    width: 170px;
+    height: 60px;
+    font-size: 2.5em;
+  }
+
+  .outcome {
+    margin-top: 60px;
+    font-size: 3.5em;
+  }
+
+  #warning {
+    font-size: 3em;
+  }
+}
