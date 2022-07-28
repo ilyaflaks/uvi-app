@@ -1,8 +1,8 @@
 # UV Index App
 <img src="uvi-app.png" width=250px/>
 
-## This app uses API provided by the US EPA to check the UV index at the current time by the ZIP Code
-### Will only work for USA ZIP codes. 
+## This app uses API provided by the US Environmental Protective Agency to check the UV index at the current time by the ZIP Code
+### Will only work for US ZIP codes. 
 ### Made with React
 
 #### How to run: 
@@ -15,7 +15,7 @@
 - navigate to http://localhost:8080/ in your browser
 - enter a valid 5-digit Zip code 
 - click submit
-
+- plan your day accordingly
 
 ### Future Improvements
 - Fix the bug so that a new valid search resets the error message, if there is one, without refreshing the app
